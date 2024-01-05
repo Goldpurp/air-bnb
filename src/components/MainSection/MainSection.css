@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=DM+Mono:wght@500&family=Gentium+Plus&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=PT+Serif:wght@700&display=swap");
+
+.sections {
+
+  padding: 10px;
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainImages {
+  border-radius: 10px;
+  width: 250px;
+  height: 360px;
+}
+
+li .img-container {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+li .toggle-sold {
+  background-color: white;
+  width: fit-content;
+  padding: 4px 9px;
+  color: black;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+li .toggle-available {
+  background-color: rgb(102, 221, 59);
+  width: fit-content;
+  padding: 4px 9px;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+li .icon {
+  color: rgb(218, 55, 55);
+}
+
+li .rating {
+  font-weight: 500;
+}
+
+li .bio {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+li .pricing {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+li .lighter {
+  font-size: 15px;
+  font-weight: 100;
+}
